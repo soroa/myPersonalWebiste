@@ -1,0 +1,64 @@
+*{
+	font-family: 'Droid Serif', serif;
+}
+
+
+.blogEntryPreview{
+	position:relative;
+	font-size: 20px;
+	margin:10px;
+	
+	height: 260px;
+	width:280px;
+	
+	position:relative;
+	display:block;
+
+}
+
+.blogEntryPreview figcaption{
+	position:absolute;
+	color:white;
+	text-align: center;
+	top:0;
+	padding:10px;
+	width:inherit;
+	height: inherit;
+	background:rgba(0,0,0,.7);
+	opacity: 0;
+}
+
+.blogEntryPreview figcaption h3{
+	font-size: 20px;
+}
+
+#postDate{
+	font-size: 12px;
+	position:absolute;
+	bottom: 0px;
+	left:10px;
+}
+
+#postCat{
+	font-size: 12px;
+	position:absolute;
+	bottom: 0px;
+	right:10px;
+}
+
+.blogEntryPreview:hover figcaption{
+	opacity: 1;
+}
+
+.blogEntryPreview img{
+		height:100%;
+		width:100%;
+		margin:0;
+
+}
+
+
+
+ /*.postTitle:hover{
+ 	opacity: 100	;
+ }*/
